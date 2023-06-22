@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Empowerment</title>
+    <link rel="icon" href="https://www.reliancefoundation.org/reliance foundation theme-theme/images/favicon.ico">
+    <link rel="stylesheet" href="Women-Empowerment.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- =========================== HEADER =============================== -->
+
+
+    <header>
+        <div class="header">
+            <div class="logo"><a href="realiance.html"> <img
+                    src="data:image/png;base64,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"
+                    alt=""></a>
+            </div>
+            <div class="nav">
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        WHO WE ARE
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="about-the-chairperson.html">About the <br> Chairperson</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">About Reliance <br> Foundation</a></li>
+                        <li><a class="dropdown-item" href="#">Awards</a></li>
+                        <li><a class="dropdown-item" href="#">Annual Reports</a></li>
+                        <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                        <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <span>&#47;</span>
+
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        WHAT WE DO
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="rural.html">Rural Transformation</a></li>
+                        <li><a class="dropdown-item" href="health.html">Health</a></li>
+                        <li><a class="dropdown-item" href="education.html">Education</a></li>
+                        <li><a class="dropdown-item" href="sports-for-development.html">Sports for Development</a></li>
+                        <li><a class="dropdown-item" href="Women-Empowerment.html">Women Empowerment</a></li>
+                        <li><a class="dropdown-item" href="disaster.html">Disaster Management</a></li>
+                        <li><a class="dropdown-item" href="Arts-Culture-&-Heritage.html">Arts, Culture & Heritage</a>
+                        </li>
+                        <li><a class="dropdown-item" href="Urban-Renewal.html">Urban Renewal</a></li>
+                    </ul>
+                </div>
+
+
+                <span>&#47;</span>
+
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        MEDIA
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="publication.html">Publications</a></li>
+                        <li><a class="dropdown-item" href="stories-about-our-work.html">Stories About Our Work</a></li>
+                        <li><a class="dropdown-item" href="press-releases.html">Press Releases</a></li>
+                        <li><a class="dropdown-item" href="events-and-update.html">Events & Updates</a></li>
+                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                        <li><a class="dropdown-item" href="COVID-19-Response.html">COVID-19 Response</a></li>
+                        <li><a class="dropdown-item" href="Covid-19-Awareness-Toolkit.html">COVID-19 Awareness
+                                Toolkit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hem-burger">
+                <i class="fa-solid fa-bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>s
+            </div>
+         </div>
+         <hr>
+    </header>
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="who">
+            <h6>WHO WE ARE</h6>
+            <ul>
+                <li><a href="about-the-chairperson.css">About the Chairperson</a></li>
+                <li><a href="">About Reliance Foundation</a></li>
+                <li><a href="">Awards</a></li>
+                <li><a href="">Annual Reports</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="offcanvas-body">
+            <div class="who">
+              <h6>WHAT WE DO</h6>
+              <ul>
+                  <li><a href="rural.html">Rural Transformation</a></li>
+                  <li><a href="health.html">Health</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="sports-for-development.html">sports for Development</a></li>
+                  <li><a href="Women-Empowerment.html">Women Empowerment</a></li>
+                  <li><a href="disaster.html">Disaster Management</a></li>
+                  <li><a href="Arts-Culture-&-Heritage.html">Arts, Culture & Heritage</a></li>
+                  <li><a href="Urban-Renewal.html">Urban Renewal</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="offcanvas-body">
+            <div class="who">
+              <h6>MEDIA</h6>
+              <ul>
+                  <li><a href="publication.html">Publications</a></li>
+                  <li><a href="stories-about-our-work.html">Stories About Our Work</a></li>
+                  <li><a href="press-releases.html">Press Releases</a></li>
+                  <li><a href="events-and-update.html">Events & Updates</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="COVID-19-Response.html">- COVID-19 Response</a></li>
+                  <li><a href="Covid-19-Awareness-Toolkit.html">- COVID-19 Awareness</a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+      <!-- ============================ FIXED ICON ============================ -->
+
+      <div class="icon">
+        <i class="fa-brands fa-square-twitter" style="color: #005eff;"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-youtube" style="color: #ff0000;"></i>
+        <i class="fa-brands fa-square-instagram" style="color: #ff6600;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #003185;"></i>
+    </div>
+
+    <!-- =========================== MAIN 1 =============================== -->
+
+    <div class="main1">
+        <div class="main-title">
+            <div class="main-heading">Women Empowerment</div>
+        </div>
+        <div class="main-photo">
+            <img src="https://www.reliancefoundation.org/documents/20182/124034/CoverImage/671fbe5f-7ace-4fc7-b041-7b2f236efd7b?t=1662475636184"
+                alt="">
+        </div>
+        <div class="main-body">
+            <p style="margin-bottom: 0;">
+                In about a decade, India will have the largest number of women in any country in the world. Empowered
+                women mean a stronger and a better world and Reliance Foundation is committed to empowering women to
+                play a catalytic role in bringing about transformational economic, environmental and social change.
+                Towards achieving the UN SDGs, Reliance Foundation has been striving across all its core focus areas to
+                support women across India to achieve their potential and gain agency over decisions that affect their
+                lives. This is being done through various interventions including leadership capacity building, digital
+                literacy, employment and skills development, improving women’s health and enhancing women’s
+                opportunities in education, sports and arts.
+            </p>
+        </div>
+    </div>
+
+    <!-- =========================== MAIN 2 =============================== -->
+
+    <div class="main2">
+        <div class="main-title">
+            <div class="main-heading">Empowering Women Leaders</div>
+        </div>
+        <div class="main-body">
+            <img style="float:right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/WomenLeaders/9cbb6b85-ee67-4fc8-9720-638f69e65585?t=1662475875924"
+                alt="">
+            <p>
+                <span>Empowering Women Leaders in Rural Communities</span>
+            </p>
+            <p>
+                Reliance Foundation has extensively worked with rural communities across India since 2010 to empower
+                themselves and their societies in locally feasible ways through a three-pronged approach:
+            </p>
+            <p>
+                <span>• Enabling women-inclusive development planning and decision-making:</span> Increasing
+                participation in
+                households, institutions and community decision-making; supporting sustainable agriculture practices and
+                climate resilience for food and nutrition security of women and children; and enabling better quality of
+                life with improved access to drinking water.
+            </p>
+            <p>
+                <span>• Strengthening entrepreneurial and livelihood capabilities for women:</span> Increasing access to
+                knowledge,
+                livelihood skills, productive assets, markets, finance and technologies; promoting women
+                entrepreneurship on diverse livelihood options both farm and non-farm and increasing participation of
+                women in various value chains.
+            </p>
+            <p>
+                <span>• Enhancing access to basic entitlements for social security:</span> Supporting access to
+                information, skills
+                and resources securing basic entitlements and social security schemes.
+            </p>
+            <br>
+            <p>
+                <span>WomenLead India Fellowship – Empowering Women Leaders in the Social Sector</span>
+            </p>
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/SocialSector/8ae00f17-b6a1-49b5-8720-734f80e9fbdc?t=1662643261946"
+                alt="">
+            <br>
+            <p>
+                The WomenLead India Fellowship, powered by Reliance Foundation and Vital Voices, drives an ambitious,
+                urgent agenda for women’s leadership in India by investing in changemakers who are taking on the world's
+                greatest challenges.
+            </p>
+            <br>
+            <p>
+                <span>This inaugural 10-month long India fellowship aims to strengthen the leadership capacity of 50
+                    inspirational Indian women leaders</span> who are addressing urgent economic and social issues
+                across the key
+                areas of Rural Transformation, Education, Sports for Development, and Arts, Culture and Heritage.
+            </p>
+            <br>
+            <p>
+                Under these thematic areas, fellows will be divided into three tracks based on their experience:
+                Economic Empowerment & Entrepreneurs, Social Sector Leaders, and Changemakers.
+            </p>
+            <br>
+            <p>
+                The Fellowship will focus on leadership capacity building and skills development and is designed to
+                ultimately strengthen the leadership of the participants and increase the success of their ventures and
+                efforts. Support services include mentoring, peer-to-peer engagement and visibility.
+            </p>
+        </div>
+        <div class="main-title">
+            <div class="main-heading">Bridging the gender digital divide</div>
+        </div>
+        <div class="main-body">
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/DigitalDivide/dcc0ece9-85e5-46fd-b5f2-d01d39e14a28?t=1662475599512"
+                alt="">
+            <p>
+                <span>Reliance Foundation and USAID WomenConnect Challenge India</span>
+            </p>
+            <p>
+                Women’s inclusion in digital technology is an increasingly important tool for education, financial
+                inclusion, entrepreneurship, civic participation and information. The WomenConnect Challenge India was
+                launched in 2020 by Reliance Foundation and United States Agency for International Development (USAID).
+                WomenConnect Challenge (WCC) India aims to identify and support innovative solutions to empower women in
+                India, facilitating their access to and use of digital technology to drive positive health, education
+                and livelihood outcomes for themselves and their families.
+            </p>
+            <p>
+                Through Round 1 of this Challenge, Reliance Foundation announced grants for 10 not-for-profit
+                organisations between Rs. 75 lakh to 1 crore each for over a period of 12 to 15 months. Programmes
+                supported focused on building entrepreneurship skills, relevant digital literacy for low-literate users,
+                edutainment-based courseware, mentoring and value-chain linkages and support for women working in
+                agriculture. The project includes working with communities and youth. Over 3 lakh (300,000) women and
+                girls across 17 states are being reached through various initiatives focused on increasing women’s
+                economic empowerment through technology. A short summary of the programmes supported under Round 1 can
+                be found here.
+            </p>
+            <p>
+                These projects have reached and created sustainable impact in the lives of over 320,000 women and girls
+                directly and indirectly, spread over 19 states of India. Women who were trained through these projects
+                have also reported increased awareness of and access to digital tools and services, behavioural changes
+                in community around their use of technology, increased livelihood and entrepreneurial opportunities and
+                awareness of financial products and Government schemes. Reliance Foundation also released a publication
+                in May 2023, that highlights stories of impact from these projects, as well as insights and learnings
+                for other interventions focused on bridging the gender digital divide.
+            </p>
+            <p>
+                Building on the momentum from Round 1, <span>RF and USAID launched Round 2 of the WomenConnect Challenge
+                    India</span>
+                in October 2022 to continue to discover innovative ways to bring women online with the support of their
+                families and communities, and create sustainable long-term programming that helps bridge the gender
+                digital divide. Under Round 2, <span>RF will support 7 innovative projects</span> that empower women via
+                access to
+                and the use of digital technology to drive positive development and livelihood outcomes for themselves
+                and their families, <span>with grants of up to Rs. 1 crore each, for projects ranging from 12 to 18
+                    months.</span>
+            </p>
+            <p>
+                Key focus areas of the Round 2 projects include building digital literacy skills using applications and
+                digital platforms for access to relevant information, promoting entrepreneurship and growing
+                microenterprises, and financial inclusion. The projects include working with self-help groups, women
+                micro- entrepreneurs, women livestock farmers and in post-harvest fisheries, and women from marginalised
+                communities and the unorganised sector.
+            </p>
+            <p>
+                <span>Her Circle – A Digital Platform for Women</span>
+            </p>
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/BridgingtheGenderImage/32e698a3-871a-44d9-96f2-699cdecdef5e?t=1662475513816"
+                alt="">
+            <p>
+                On International Women’s Day 2021, Chairperson Smt. Nita Mukesh Ambani launched Her Circle, an
+                inclusive, collaborative, diverse, interactive, socially-conscious digital movement for the women of
+                India. It is an all-encompassing content, social media and goal fulfilment community that caters to the
+                rapidly rising aspirations, ambitions, dreams and competencies of women from all social backgrounds.
+                Designed as a one-stop destination for engaging women-related content, it provides women space to share
+                their life stories, provide inspiration, hope and resilience to others. As a safe space for their
+                growth, Her Circle’s intent is to bridge the gendered digital divide that exists while keeping women
+                informed, empowered and engaged.
+            </p>
+            <p>
+                Since its launch, Her Circle has become India’s fastest growing digital platform for women with a total
+                reach of over 50 million. Since March 2022, Her Circle has a Hindi version of the platform as well.
+            </p>
+            <p>
+                <span>• Jobs:</span> Her Circle has jobs across various specialisations in different organisations
+                listed to help
+                users find opportunities that are best suited for their profiles. The platform has been promoting these
+                opportunities on social media handles for better outreach. More than 5,000 people have applied for
+                various positions through Her Circle.
+            </p>
+            <p>
+                <span>• Masterclasses:</span> Her Circle users have exclusive access to masterclasses across various
+                themes like dog
+                training, food styling, radio jockeying, professional makeup and fitness training.
+            </p>
+            <p>
+                <span>• Support:</span> Her Circle users have access to a panel of experts who provide guidance and
+                advice on a host
+                of topics such as health and nutrition, counselling, finance, dermatology, neonatology and pediatrics,
+                gynecology, rehabilitation and sports medicine. Since its launch, thousands of women have reached out
+                and sought help from experts.
+            </p>
+            <p>
+                <span>• Communities:</span> Her Circle fosters meaningful conversations among the online community so
+                that people
+                with shared interests can come together. With more than 30 dynamic communities across varied interest
+                areas, Her Circle members help each other navigate through challenges with tools of transformation.
+            </p>
+            <p>
+                Her Circle was also the exclusive digital media partner for FICCI & FLO’s Greater 50 Conclave and
+                Exhibition 2021. Her Circle is partnering with NITI Aayog in 2022 for events, webinars and
+                entrepreneurial training programmes. In addition, Her Circle will be joining hands with UN Women in 2022
+                for events and campaigns.
+            </p>
+        </div>
+        <div class="main-title">
+            <div class="main-heading">Improving Women’s Health</div>
+        </div>
+        <div class="main-body">
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/ImprovingHealthImage/4e2b6e6a-d93f-4465-b812-68b2d73c0dec?t=1662476403994"
+                alt="">
+            <p>
+                Reliance Foundation also works to increase women’s access to nutrition and health services, preventing
+                anaemia and malnutrition and improving prenatal and postpartum care.
+            </p>
+            <p>
+                We have collaborated with the Bill & Melinda Gates Foundation, MSD for Mothers, Tata Trusts and the
+                United States Agency for International Development (USAID) on Project <span>ASMAN (Alliance for Saving
+                    Mothers
+                    and New-borns),</span> a unique initiative that seeks to reduce maternal and neonatal mortality
+                across
+                Rajasthan and Madhya Pradesh. The project deploys innovative tech-enabled, facility-based interventions
+                that help healthcare service providers provide high-quality care during childbirth and in the critical
+                48-60 hours just after delivery. It plays a major role in helping healthcare professionals monitor cases
+                and equipping them to handle complications better. Over 7.5 lakhs mothers and newborns were reached
+                through 81 government health facilities since the inception of the programme in 2015. During April 2018
+                to June 2021, 433,100 cases were registered and 165,000 (38%) high-risk cases were detected through the
+                ASMAN app.
+            </p>
+            <p>
+                Under our <span>Public Health Outreach Programme,</span> women and adolescent girls are screened for
+                anaemia across
+                various rural locations. In addition, under our Rural Transformation initiatives, we have also been
+                working to achieve nutritional security in rural households by helping communities set up <span>Reliance
+                    Nutrition Gardens (RNGs)</span> in their unused and waste lands. Spearheaded by the women of the
+                communities,
+                these RNGs have empowered women to take up leadership roles in setting up these gardens, have made rural
+                households nutrition self-reliant and helped in reducing anaemia among rural women.
+            </p>
+        </div>
+        <div class="main-title">
+            <div class="main-heading">Improving Education Opportunities for Girls</div>
+        </div>
+        <div class="main-body">
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/ImprovingEduImage/b291cc1e-c108-4e27-9d18-9116594ea7cb?t=1662476326792"
+                alt="">
+            <p>
+                Established in 1996, our <span>Dhirubhai Ambani Scholarship (DAS)</span> ensures inclusive and equitable
+                education
+                for meritorious students. The main objective of the Dhirubhai Ambani scholarship programme is to provide
+                financial support to the meritorious students so that they can complete their higher education without
+                any disturbance. The scholarship unleashes the potential of the youth of India to grow into leaders in
+                their respective fields. Cumulatively, 12,776 students have received the scholarship, approximately 50%
+                of whom are girls.
+            </p>
+            <br>
+            <p>
+                Through our <span>‘Education and Sports for All’</span> initiative, Reliance Foundation promotes the
+                need to bring
+                together sporting talent and provides them with a platform to excel in sports. Between 2020-2021
+                Reliance Foundation supported four NGOs working to enhance education and/or sports for girls. These NGOs
+                included Milaan, Sakhi for Girls, Slum Soccer, and Yuwa.
+            </p>
+            <br>
+            <p>
+                Reliance Foundation also supports girls in the communities around Reliance’s business locations, to help
+                them realise their potential. In Shahdol, Madhya Pradesh, we operate bus services for 400 girls from
+                local villages, encouraging parents to send their daughters to school and college, even in remote areas
+                where transport services may be sporadic and unreliable.
+            </p>
+        </div>
+        <div class="main-title">
+            <div class="main-heading">Inspiring Girls and Women in Sport</div>
+        </div>
+        <div class="main-body">
+            <img style="float: right;"
+                src="https://www.reliancefoundation.org/documents/20182/124034/InspiringSportsImage/cb99e6ee-7a7c-40cc-92b2-3a13c9fb372b?t=1662476591169"
+                alt="">
+            <p>
+                Reliance Foundation’s strong emphasis on sports is drawn from our belief that sports is a great
+                motivator to enhance the spirit of learning and leadership, especially among rural children.
+            </p>
+            <p>
+                <span>Reliance Foundation Youth Sports (RFYS)</span> is a country-wide multi sporting platform that has
+                seen
+                participation from over 10,000 educational institutes and 1,30,000 young athletes since inception. The
+                best athletes receive scholarships and an opportunity to be scouted by professional football clubs and
+                the Indian national team. Nearly 20,000 of the total number of participating athletes in 2019-20 were
+                girls and 83 of these girls have been awarded scholarships. RFYS has also partnered with the All India
+                Football Federation to scout the best performing girl athletes from our competitions for the Indian
+                national team.
+            </p>
+            <p>
+                The <span>Reliance Foundation Olympics Initiative</span> began in 2019 with an aim to improve the
+                country’s
+                performance at Olympics and other prestigious international events. Reliance Foundation is supporting
+                elite athletes that have potential under its Athlete Scholarship programme and works closely with
+                coaches, the government and sports federations to support these athletes to enhance performance and
+                enable them to win medals for India at the International stage. Out of the current 14 scholarships
+                offered, 8 are offered to girl athletes - Ridhi Phor (Archery), Aditi Bhatt, Unnati Hooda, Palak Arora
+                (Badminton), Tilottama Sen (Shootnig), Manika Batra (Table Tennis) and Sneha Soren, Jhilli Dalabehera
+                (Weightlifting).
+            </p>
+            <p>
+                In 2022, Reliance announced a <span>long-term partnership Athletics Federation of India (AFI)</span> to
+                enable the
+                holistic growth of Athletics in India. The partnership aims to discover, nurture and develop Indian
+                athletes from across the country and provide them with world-class facilities, coaching and sports
+                science and medicine support by leveraging the Reliance Foundation ecosystem including the Odisha
+                Reliance Foundation Athletics High-Performance Center and Sir HN Reliance Foundation Hospital. The
+                partnership will have a special focus on girl athletes and aim to bridge the gender divide and enable
+                them to achieve their dreams.
+            </p>
+            <p style="margin-bottom: 0;">
+                Reliance Foundation also runs the <span>RF Junior NBA Programme</span> which is a school based youth basketball
+                programme that has reached out to more than 11 million youngsters of which more than 45% of the
+                registrations are girls.
+            </p>
+        </div>
+    </div>
+
+    
+    <!-- ================================FOOTER=================================== -->
+
+    <div class="footer flex-wrap">
+        <div class="d-flex flex-wrap justify-content-around  mb-3 footer-sub">
+            <div class="p-2">
+                <p class="footer-headingtxt">ABOUT US</p>
+                <p class="footer-txt">To know more about Reliance <br>Foundation Click Here</p>
+                <p><img src="https://www.reliancefoundation.org/documents/20182/20872/reliance_drisht_img.png/40a84495-6034-47cc-9a10-f4638eebe7de?t=1464012033036" alt=""></p>
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">FOCUS AREAS</p>
+                <p class="footer-txt">Rural Transformation <br>Health <br>Education <br>Sports for Development <br>Women
+                    Empowerment <br>Disaster Management <br>Arts, Culture & Heritage <br>Urban Renewal</p>
+
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">CONTACT</p>
+                <p><img src="https://www.reliancefoundation.org/documents/20182/0/reliancefoundation_Map.png/59a20269-f6ad-4782-ada5-ad2b497aba34?t=1519208073309" alt=""></p>
+                <p class="footer-txt"><i class="fa-solid fa-envelope" style="color: #896501;"></i>    contactus@reliancefoundation.org</p>
+                <button type="button" class="btn btn-success" id="readmorebtn">CAUTION NOTICE</button>
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">SIGN UP FOR UPDATES</p>
+                <p class="footer-txt">To keep yourself updated on latest <br>news and programs at Reliance <br>Foundation, drop in your E-mail ID</p>
+                <p> <input type="text" class="footer-input"></p>
+                <button type="button" class="btn" id="submitbtn">SUBMIT</button>
+            </div>
+        </div>
+        <div class="footer-opacity">
+            <p>&copy 2023. All rights reserved. Terms & Conditions. Privacy Policy</p>
+        </div>
+    </div>
+</body>
+
+</html>
