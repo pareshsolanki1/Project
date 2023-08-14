@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* =========================== HEADER =============================== */
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 20%;
+    background-color: white;
+}
+.logo img{
+    height: 60px;
+}
+.nav{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    float: right;
+}
+.nav a{
+    padding-right: 20px;
+}
+.nav span{
+    padding-right: 8px;
+    color: white;
+}
+
+.header{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .menu-bar{
+    width: 230px;
+  }
+  .menu-bar li{
+    border: 1px solid darkgray;
+    padding: 3px;
+  }
+
+  .hem-burger{
+    display: none;
+  }
+  .hem-burger .fa-bars{
+    font-size: 30px;
+    color: rgb(0, 173, 0);
+  }
+
+ /* ========================================MAIN 1===========================================  */
+
+ .main1{
+    /* height: 1800px; */
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    background-color: white;
+}
+.main1 img{
+    width: 100%;
+}
+.main1 span{
+    color: mediumseagreen;
+}
+.main-title{
+    /* height: 100px; */
+    padding: 20px 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-heading{
+    font-size: 30px;
+    color: peru;
+    font-weight: bolder;
+}
+.main-photo{
+    width: 80%;
+    margin: auto;
+}
+.main-body{
+    width: 80%;
+    margin: auto;
+}
+#body-heading-txt{
+    color: mediumseagreen;
+    text-align: start;
+    font-size: 18px;
+}
+.card-body{
+    font-size: 16px;
+}
+.readmore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#readmorebtn{
+    padding: 10px;
+    border-radius: 0%;
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+}
+#readmorebtn:hover{
+    background-color: rgb(1, 71, 1);
+    box-shadow: 2px 15px 15px darkgray;
+    transform: scale(1.1);
+}
+
+/* ================================FOOTER=================================== */
+
+.footer{
+    /* height: 400px; */
+    width: 100%;
+    background-color: rgb(210, 168, 138);
+}
+
+.footer-sub{
+    width: 80%;
+    margin: auto;
+    /* height: 300px; */
+}
+.footer-headingtxt{
+    color: rgb(159, 115, 4);
+}
+.footer-input{
+    width: 100%;
+}
+#submitbtn{
+    background-color: rgb(159, 115, 4);
+    border-radius: 0;
+    color: white;
+}
+.footer-opacity{
+    height:80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkkhaki;
+    opacity: .200;
+}
+
+
+.who h6{
+    border-bottom: 1px solid rgb(0, 173, 0);;
+    padding: 10px 10px;
+    color: blue;
+}
+.who ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.who ul li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 5px 7px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    position: fixed;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .nav .dropdown{
+        display: none;
+    }
+    .logo img{
+        height: 30px;
+    }
+    .hem-burger{
+        display: block;
+      }
+}

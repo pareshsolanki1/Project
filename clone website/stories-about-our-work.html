@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories About Our Work</title>
+    <link rel="icon" href="https://www.reliancefoundation.org/reliance foundation theme-theme/images/favicon.ico">
+    <link rel="stylesheet" href="stories-about-our-work.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- =========================== HEADER =============================== -->
+
+
+    <header>
+        <div class="header">
+            <div class="logo"><a href="realiance.html"> <img
+                    src="data:image/png;base64,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"
+                    alt=""></a>
+            </div>
+            <div class="nav">
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        WHO WE ARE
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="about-the-chairperson.html">About the <br> Chairperson</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">About Reliance <br> Foundation</a></li>
+                        <li><a class="dropdown-item" href="#">Awards</a></li>
+                        <li><a class="dropdown-item" href="#">Annual Reports</a></li>
+                        <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                        <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <span>&#47;</span>
+
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        WHAT WE DO
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="rural.html">Rural Transformation</a></li>
+                        <li><a class="dropdown-item" href="health.html">Health</a></li>
+                        <li><a class="dropdown-item" href="education.html">Education</a></li>
+                        <li><a class="dropdown-item" href="sports-for-development.html">Sports for Development</a></li>
+                        <li><a class="dropdown-item" href="Women-Empowerment.html">Women Empowerment</a></li>
+                        <li><a class="dropdown-item" href="disaster.html">Disaster Management</a></li>
+                        <li><a class="dropdown-item" href="Arts-Culture-&-Heritage.html">Arts, Culture & Heritage</a>
+                        </li>
+                        <li><a class="dropdown-item" href="Urban-Renewal.html">Urban Renewal</a></li>
+                    </ul>
+                </div>
+
+
+                <span>&#47;</span>
+
+                <div class="dropdown">
+                    <button class="btn btn text-body dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        MEDIA
+                    </button>
+                    <ul class="dropdown-menu menu-bar" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="publication.html">Publications</a></li>
+                        <li><a class="dropdown-item" href="stories-about-our-work.html">Stories About Our Work</a></li>
+                        <li><a class="dropdown-item" href="press-releases.html">Press Releases</a></li>
+                        <li><a class="dropdown-item" href="events-and-update.html">Events & Updates</a></li>
+                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                        <li><a class="dropdown-item" href="COVID-19-Response.html">COVID-19 Response</a></li>
+                        <li><a class="dropdown-item" href="Covid-19-Awareness-Toolkit.html">COVID-19 Awareness
+                                Toolkit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hem-burger">
+                <i class="fa-solid fa-bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+            </div>
+         </div>
+         <hr>
+    </header>
+
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="who">
+            <h6>WHO WE ARE</h6>
+            <ul>
+                <li><a href="about-the-chairperson.css">About the Chairperson</a></li>
+                <li><a href="">About Reliance Foundation</a></li>
+                <li><a href="">Awards</a></li>
+                <li><a href="">Annual Reports</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="offcanvas-body">
+            <div class="who">
+              <h6>WHAT WE DO</h6>
+              <ul>
+                  <li><a href="rural.html">Rural Transformation</a></li>
+                  <li><a href="health.html">Health</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="sports-for-development.html">sports for Development</a></li>
+                  <li><a href="Women-Empowerment.html">Women Empowerment</a></li>
+                  <li><a href="disaster.html">Disaster Management</a></li>
+                  <li><a href="Arts-Culture-&-Heritage.html">Arts, Culture & Heritage</a></li>
+                  <li><a href="Urban-Renewal.html">Urban Renewal</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="offcanvas-body">
+            <div class="who">
+              <h6>MEDIA</h6>
+              <ul>
+                  <li><a href="publication.html">Publications</a></li>
+                  <li><a href="stories-about-our-work.html">Stories About Our Work</a></li>
+                  <li><a href="press-releases.html">Press Releases</a></li>
+                  <li><a href="events-and-update.html">Events & Updates</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="COVID-19-Response.html">- COVID-19 Response</a></li>
+                  <li><a href="Covid-19-Awareness-Toolkit.html">- COVID-19 Awareness</a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+      <!-- ============================ FIXED ICON ============================ -->
+
+      <div class="icon">
+        <i class="fa-brands fa-square-twitter" style="color: #005eff;"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-youtube" style="color: #ff0000;"></i>
+        <i class="fa-brands fa-square-instagram" style="color: #ff6600;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #003185;"></i>
+    </div>
+
+    <!-- =================================== MAIN 1 =========================================== -->
+
+    <div class="main1">
+        <div class="main-title">
+            <div class="main-heading">Stories About Our Work</div>
+        </div>
+        <div class="main-body flex-wrap">
+            <div class="main-body1">
+                <img src="image/photo62.png"
+                    alt="">
+                <p>
+                    <span id="span1"><a href="">Scholarships by Reliance : Impact study observes multiplier
+                            effect</a></span>
+                </p>
+                <p>
+                    An evaluation of scholarships provided by Reliance through the years, found that beyond immediate
+                    indicidual scholar impact, there has been multiplier effect at a household, organisation and
+                    societal level.
+                </p>
+            </div>
+            <div class="main-body2">
+                <img style="float: right;"
+                    src="image/photo63.png" alt="">
+                <p>
+                    <span id="span2">Mumbai, Maharashtra</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">Taking healthcare access to women who need it the most </a></span>
+                </p>
+                <p>
+                    On international Women's Day, about 300 women and adolescent girls from economically disadvantaged
+                    communities in Mumbai were screened through a mega health camp conducted by Sir H.N. Reliance
+                    Foundation Hospital.
+                </p>
+            </div>
+        </div>
+        <div class="main-body  flex-wrap">
+            <div class="main-body1">
+                <img src="image/photo64.png"
+                    alt="">
+                <p>
+                    <span id="span2">Jhajjhar, Haryana</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">Facilitating better education opportunities for children</a></span>
+                </p>
+                <p>
+                    Supporting the dreams of students from humble backgrounds, Reliance Foundation engages in multiple
+                    education initiatives.
+                </p>
+            </div>
+            <div class="main-body2">
+                <img style="float: right;"
+                    src="image/photo65.png" alt="">
+                <p>
+                    <span id="span2">Mumbai, Maharashtra</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">What builds world-class weightlifting talent? Let's find out </a></span>
+                </p>
+                <p>
+                    Achinta Sheuli's performances indicate that he can take the indian weightlifting to greater heights
+                    with continual support
+                </p>
+            </div>
+        </div>
+        <div class="main-body  flex-wrap">
+            <div class="main-body1">
+                <img src="image/photo66.png"
+                    alt="">
+                <p>
+                    <span id="span2">Kotma, Madhya Pradesh</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">Delivering timely health services to the last mile</a></span>
+                </p>
+                <p>
+                    Reliance Foundation's Mobile Medical Units continue to provide much-needed primary care to
+                    vulnerable populations.
+                </p>
+            </div>
+            <div class="main-body2">
+                <img style="float: right;"
+                    src="image/photo67.png" alt="">
+                <p>
+                    <span id="span2">Bidar, Karnataka</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">How women of Bidar made Har Ghar Tiranga a success</a></span>
+                </p>
+                <p>
+                    As india completed 75 years of independence, women in Karnataka's Bidar did their bit to support
+                    "Har Ghar Tiranga" initiative.
+                </p>
+            </div>
+        </div>
+        <div class="main-body  flex-wrap">
+            <div class="main-body1">
+                <img src="image/photo68.png"
+                    alt="">
+                <p>
+                    <span id="span2">Bargarth district, Odisha</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">Milk Matters: Enabling women's agency through better livestock
+                            management</a></span>
+                </p>
+                <p>
+                    Through Reliance Foundation, Basanti found that bit of empowerment, her identity and also found her
+                    voice as a person, as an empowered rural indian woman.
+                </p>
+            </div>
+            <div class="main-body2">
+                <img style="float: right;"
+                    src="image/photo69.png" alt="">
+                <p>
+                    <span id="span2">SSawai Madhopur, Rajasthan</span>
+                </p>
+                <p>
+                    <span id="span1"><a href="">This farmer doubled his farm income with just one simple
+                            change</a></span>
+                </p>
+                <p>
+                    Jai Narayan Bairwa in Rajasthan had been farming traditional cereal crops for decades but began to
+                    reap rich only in the recent years.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ================================FOOTER=================================== -->
+
+    <div class="footer flex-wrap">
+        <div class="d-flex flex-wrap justify-content-around  mb-3 footer-sub">
+            <div class="p-2">
+                <p class="footer-headingtxt">ABOUT US</p>
+                <p class="footer-txt">To know more about Reliance <br>Foundation Click Here</p>
+                <p><img src="https://www.reliancefoundation.org/documents/20182/20872/reliance_drisht_img.png/40a84495-6034-47cc-9a10-f4638eebe7de?t=1464012033036" alt=""></p>
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">FOCUS AREAS</p>
+                <p class="footer-txt">Rural Transformation <br>Health <br>Education <br>Sports for Development <br>Women
+                    Empowerment <br>Disaster Management <br>Arts, Culture & Heritage <br>Urban Renewal</p>
+
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">CONTACT</p>
+                <p><img src="https://www.reliancefoundation.org/documents/20182/0/reliancefoundation_Map.png/59a20269-f6ad-4782-ada5-ad2b497aba34?t=1519208073309" alt=""></p>
+                <p class="footer-txt"><i class="fa-solid fa-envelope" style="color: #896501;"></i>    contactus@reliancefoundation.org</p>
+                <button type="button" class="btn btn-success" id="readmorebtn">CAUTION NOTICE</button>
+            </div>
+            <div class="p-2">
+                <p class="footer-headingtxt">SIGN UP FOR UPDATES</p>
+                <p class="footer-txt">To keep yourself updated on latest <br>news and programs at Reliance <br>Foundation, drop in your E-mail ID</p>
+                <p> <input type="text" class="footer-input"></p>
+                <button type="button" class="btn" id="submitbtn">SUBMIT</button>
+            </div>
+        </div>
+        <div class="footer-opacity">
+            <p>&copy 2023. All rights reserved. Terms & Conditions. Privacy Policy</p>
+        </div>
+    </div>
+</body>
+
+</html>
