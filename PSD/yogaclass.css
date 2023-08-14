@@ -1,0 +1,655 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*====================== position absolute===================== */
+.shape-5{
+    height: 700px;
+    width: 320px;
+    position: absolute;
+    background-image: url(image/Shape\ \(1\).png);
+    margin-left: 78%;
+    margin-top: -250px;
+}
+
+/* ====================  header ======================  */
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+
+    text-align: end;
+}
+
+.logo img{
+    background-color: #dbf8f6;
+    padding: 15px 0px;
+}
+
+nav {
+    background-color: darkgray;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    /* padding-left: 750px; */
+    text-align: end;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+nav a:hover {
+    background-color: rgb(88, 112, 98);
+}
+
+.icon i{
+    font-size: 30px;
+    display: none;
+}
+/* ==================== section one ====================== */
+
+.main-one {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* ======================main1 ==================== */
+
+.main-one1 {
+    width: 50%;
+    position: relative;
+    height: 660px;
+}
+.shape-1 {
+    position: absolute;
+}
+
+
+.main1-one {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.photo1 {
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+
+/* ====================== main2 ==================== */
+
+.main-one2 {
+    width: 50%;
+    height: 660px;
+    padding: 250px 0px;
+}
+
+.main2-sub {
+    text-align: center;
+
+}
+
+.txt-1 {
+    font-size: 100px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+}
+
+.txt-2 {
+    font-size: 21px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+    text-align: center;
+    padding: 10px;
+}
+
+.txt-3 {
+    padding: 10px;
+}
+
+.txt-3 button {
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Lato";
+    width: 172px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: #6c9894;
+    border: none;
+}
+
+
+
+/* ==================== section two ====================== */
+
+.main-two {
+    background-color: #6c9894;
+}
+
+.txt-4 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.txt-5 {
+    /* width: 1509px; */
+    /* height: 210px; */
+    font-size: 30px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.main-two-sub {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.maintwo-sub1 {
+    height: 550px;
+    width: 400px;
+    position: relative;
+}
+
+.maintwo-sub1 img {
+    position: absolute;
+}
+
+.photo2 {
+    border-radius: 50%;
+    height: 330px;
+    top: 30px;
+    right: 50px;
+}
+
+.txt-6 {
+    position: absolute;
+    font-size: 37px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    top: 400px;
+    left: 60px;
+}
+
+.txt-7 {
+    position: absolute;
+    font-size: 28px;
+    color: #f4f9f4;
+    font-family: "Myriad Pro";
+    text-align: center;
+    top: 450px;
+    left: 45px;
+}
+
+.maintwo-sub2 {
+    width: 400px;
+    position: relative;
+    height: 500px;
+}
+
+.maintwo-sub2 img {
+    position: absolute;
+}
+
+.photo3 {
+    border-radius: 50%;
+    height: 330px;
+    top: 30px;
+    right: 50px;
+}
+
+.maintwo-sub3 {
+    width: 400px;
+    position: relative;
+    height: 500px;
+}
+
+.photo4 {
+    border-radius: 50%;
+    height: 330px;
+    top: 30px;
+    right: 50px;
+    position: absolute;
+}
+
+/* ==================== section three ======================  */
+
+.main-three {
+    width: 100%;
+    height: 1000px;
+    background-image: url(image/photo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt-8 {
+    font-size: 75px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.txt-9 {
+    font-size: 30px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.mainthree-sub {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 200px 0px; */
+
+}
+
+.mainthree1 {
+    width: 350px;
+    height: 350px;
+    border: 10px solid #6c9894;
+    border-radius: 50%;
+    padding: 100px 0px;
+}
+
+.mainthree2 {
+    width: 350px;
+    height: 350px;
+    border: 10px solid #6c9894;
+    border-radius: 50%;
+    padding: 100px 0px;
+}
+
+.mainthree3 {
+    width: 350px;
+    height: 350px;
+    border: 10px solid #6c9894;
+    border-radius: 50%;
+    padding: 100px 0px;
+}
+
+.txt-10 {
+    font-size: 67px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    font-weight: bolder;
+}
+
+.txt-11 {
+    font-size: 30px;
+    color: #6c9894;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+
+/* ==================== section four ====================== */
+
+.main-four {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainfour1 {
+    height: 800px;
+    width: 50%;
+    background-color:#6c9894;
+    padding: 200px 100px;
+}
+
+.txt-12 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    font-weight: bold;
+}
+
+.txt-13 {
+    font-size: 35px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 40px 0px;
+}
+
+.mainfour1 button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #f4f9f4;
+    font-size: 25px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    border: none;
+}
+
+.mainfour2 {
+    width: 50%;
+}
+
+.mainfour2 img {
+    width: 100%;
+    height: 800px;
+}
+
+/* ==================== section five ====================== */
+
+.main-five {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainfive1 {
+    width: 50%;
+    height: 800px;
+    padding: 50px 80px;
+}
+
+.mainfive1 img {
+    height: 700px;
+}
+
+.mainfive2 {
+    width: 50%;
+    height: 800px;
+    padding: 200px 100px;
+}
+.text-1{
+    font-size: 75px;
+    color:  #6c9894;
+    font-family: "Baloo Bhai";
+    font-weight: bold;
+}
+
+.text-2{
+    font-size: 35px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 40px 0px;
+}
+
+.mainfive2 button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #6c9894;
+    font-size: 25px;
+    color: white;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    border: none;
+}
+
+/* ==================== section six ======================  */
+
+.main-six {
+    width: 100%;
+    background-color: #6c9894;
+    padding-bottom: 60px;
+}
+
+.pricing{
+    font-size: 75px;
+    color: white;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.lorem{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.mainsix-sub {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainsix1 {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.mainsix2 {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.mainsix3 {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.txt-14 {
+    font-size: 37px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 20px;
+}
+
+.txt-15 {
+    text-align: center;
+}
+
+.txt-16 {
+    font-size: 25px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.mainsix-sub button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #6c9894;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Baloo Bhai";
+    text-align: center;
+}
+
+/* ==================== section seven ====================== */
+
+.main-seven {
+    height: 900px;
+    width: 100%;
+    background-image: url(image/photo8.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.shape-4 {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+
+}
+
+.photo9 {
+    position: absolute;
+    left: 580px;
+    top: 130px;
+    border-radius: 50%;
+}
+
+.txt-17 {
+    font-size: 58px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.txt-18 {
+    font-size: 58px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 750px;
+    left: 500px;
+}
+
+/* ==================== section eight ====================== */
+
+.maineight {
+    background-color: #6c9894;
+    padding: 80px 0px;
+}
+
+.txt-19 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.txt-20 {
+    font-size: 45px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.txt-21 {
+    /* text-align: center; */
+    padding-left: 320px;
+
+}
+
+.txt-21 input {
+    width: 659px;
+    height: 63px;
+    background-color: #ffffff;
+    border-radius: 33px;
+    z-index: 1;
+}
+
+.txt-21 button {
+    width: 222px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: #f4f9f4;
+    font-size: 25px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    position: absolute;
+    margin-left: -50px;
+    z-index: 2;
+}
+
+/* ==================== section footer ======================  */
+
+.main-nine{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainnine1{
+    width: 400px;
+    height: 400px;
+    padding: 100px 0px;
+}
+
+.mainnine2{
+    width: 200px;
+    height: 400px;
+    padding: 100px 0px;
+}
+
+.mainnine3{
+    width: 200px;
+    height: 400px;
+    padding: 100px 0px;
+}
+
+.mainnine4{
+    width: 200px;
+    height: 400px;
+    padding: 100px 0px;
+}
+
+.txt-22{
+    font-size: 33px;
+color: #6c9894;
+font-family: "Baloo Bhai";
+}
+
+.txt-23{
+    font-size: 25px;
+color: #6c9894;
+font-weight: 400;
+font-family: "Montserrat";
+padding: 30px 0px;
+}
+
+
+/* ===========================  Media Query   ================================ */
+

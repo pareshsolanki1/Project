@@ -1,0 +1,882 @@
+@media (max-width:1200px){
+    header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 100px;
+        background-color: aqua;
+    }
+    
+    nav {
+        background-color: darkgray;
+        height: 40px;
+        width: 100%;
+        padding-top: 10px;
+
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        margin-left: 30px;
+        padding: 10px;
+        font-weight: 900;
+    }
+    
+    nav a:hover {
+        background-color: rgb(88, 112, 98);
+    }
+
+
+
+
+    .main-one1 {
+        width: 100%;
+        position: relative;
+        height: 660px;
+        padding: 0px 200px;
+    }
+    .shape-1 {
+        position: absolute;
+    }
+    
+    
+    .main1-one {
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .photo1 {
+        border-radius: 50%;
+        position: absolute;
+        top: 140px;
+        left: 140px;
+    }
+    .main-one2 {
+        width: 100%;
+        height: 660px;
+        padding: 200px 0px;
+    }
+
+    .mainfour1 {
+        height: 800px;
+        width: 50%;
+        padding: 250px 20px;
+    }
+
+    .txt-12 {
+        font-size: 50px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+    .text-1{
+        font-size: 50px;
+        color:  #6c9894;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+
+
+    .main-five {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .mainfive1 {
+        width: 50%;
+        height: 700px;
+        padding: 50px 10px;
+    }
+    
+    .mainfive1 img {
+        height: 600px;
+    }
+    
+    .mainfive2 {
+        width: 50%;
+        height: 700px;
+        padding: 100px 30px;
+    }
+    
+    .mainfive2 button {
+        width: 322px;
+        height: 65px;
+        border-radius: 4px;
+        background-color: #6c9894;
+        font-size: 25px;
+        color: white;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        border: none;
+    }
+
+
+
+    .mainsix1{
+        margin-top: 10px;
+    }
+    .mainsix2{
+        margin-top: 10px;
+    }
+    .mainsix3{
+        margin-top: 10px;
+    }
+
+
+
+    .main-seven {
+        height: 900px;
+        width: 100%;
+        background-image: url(image/photo8.png);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .shape-4 {
+        position: absolute;
+        top: 100px;
+        left: 350px;
+    
+    }
+    
+    .photo9 {
+        position: absolute;
+        left: 380px;
+        top: 130px;
+        border-radius: 50%;
+    }
+    
+    .txt-17 {
+        font-size: 45px;
+        color: #6c9894;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 130px;
+    }
+    
+    .txt-18 {
+        font-size: 58px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        top: 700px;
+        left: 300px;
+    }
+
+
+
+
+    .maineight {
+        background-color: #6c9894;
+        padding: 80px 0px;
+    }
+    
+    .txt-19 {
+        font-size: 75px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .txt-20 {
+        font-size: 45px;
+        color: #f4f9f4;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .txt-21 {
+        /* text-align: center; */
+        padding-left: 210px;
+    
+    }
+    
+    .txt-21 input {
+        width: 500px;
+        height: 63px;
+        background-color: #ffffff;
+        border-radius: 33px;
+        z-index: 1;
+    }
+    
+    .txt-21 button {
+        width: 200px;
+        height: 65px;
+        border-radius: 33px;
+        background-color: #f4f9f4;
+        font-size: 25px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        position: absolute;
+        margin-left: -50px;
+        z-index: 2;
+    }
+
+
+
+    .shape-5{
+        display: none;
+    }
+}
+
+@media (max-width:850px){
+    header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 100px;
+        background-color: aqua;
+    }
+    
+    nav {
+        background-color: darkgray;
+        height: 40px;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10%;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        padding: 10px;
+        font-weight: 900;
+    }
+    
+    nav a:hover {
+        background-color: rgb(88, 112, 98);
+    }
+
+
+
+
+    .main-one1 {
+        width: 100%;
+        position: relative;
+        height: 520px;
+        padding: 0px 100px;
+    }
+    .shape-1 {
+        position: absolute;
+        height: 500px;
+    }
+    
+    
+    .main1-one {
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .photo1 {
+        border-radius: 50%;
+        position: absolute;
+        height: 280px;
+        top: 110px;
+        left: 110px;
+    }
+    .main-one2 {
+        width: 100%;
+        height: 660px;
+        padding: 150px 0px;
+    }
+
+    .main-three {
+        width: 100%;
+        height: 1500px;
+    }
+    .mainthree1{
+        margin-top: 20px;
+    }
+    .mainthree2{
+        margin-top: 20px;
+    }
+    .mainthree3{
+        margin-top: 20px;
+    }
+
+
+
+
+
+    .main-four {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .mainfour1 {
+        height: 500px;
+        width: 100%;
+        padding: 40px 40px;
+    }
+    
+    .txt-12 {
+        font-size: 50px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+    .text-1{
+        font-size: 50px;
+        color:  #6c9894;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+    
+    .txt-13 {
+        font-size: 35px;
+        color: #f4f9f4;
+        font-weight: 400;
+        font-family: "Montserrat";
+    }
+    .text-2{
+        font-size: 35px;
+        color: #6c9894;
+        font-weight: 400;
+        font-family: "Montserrat";
+    }
+    
+    .mainfour1 button {
+        width: 322px;
+        height: 65px;
+        border-radius: 4px;
+        background-color: #f4f9f4;
+        font-size: 25px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        border: none;
+    }
+    
+    .mainfour2 {
+        width: 100%;
+    }
+    
+    .mainfour2 img {
+        width: 100%;
+        height: 800px;
+    }
+
+
+
+    .main-five {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .mainfive1 {
+        width: 100%;
+        height: 800px;
+        padding: 50px 80px;
+    }
+    
+    .mainfive1 img {
+        height: 700px;
+    }
+    
+    .mainfive2 {
+        width: 100%;
+        height: 600px;
+        padding: 150px 60px;
+    }
+    
+    .mainfive2 button {
+        width: 322px;
+        height: 65px;
+        border-radius: 4px;
+        background-color:  #6c9894;
+        font-size: 25px;
+        color: white;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        border: none;
+    }
+
+
+
+    .main-seven {
+        height: 800px;
+        width: 100%;
+        background-image: url(image/photo8.png);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .shape-4 {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+    
+    }
+    
+    .photo9 {
+        position: absolute;
+        left: 230px;
+        top: 130px;
+        border-radius: 50%;
+    }
+    
+    .txt-17 {
+        font-size: 30px;
+        color: #6c9894;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 130px;
+    }
+    
+    .txt-18 {
+        font-size: 40px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        top: 700px;
+        left: 200px;
+    }
+
+
+
+
+    .maineight {
+        background-color: #6c9894;
+        padding: 80px 0px;
+    }
+    
+    .txt-19 {
+        font-size: 50px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .txt-20 {
+        font-size: 30px;
+        color: #f4f9f4;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .txt-21 {
+        /* text-align: center; */
+        padding-left: 80px;
+    
+    }
+    
+    .txt-21 input {
+        width: 500px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 33px;
+        z-index: 1;
+    }
+    
+    .txt-21 button {
+        width: 150px;
+        height: 50px;
+        border-radius: 33px;
+        background-color: #f4f9f4;
+        font-size: 25px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        position: absolute;
+        margin-left: -130px;
+        z-index: 2;
+    }
+
+
+
+
+    .mainnine1{
+        margin-top: 20px;
+    }
+    .mainnine2{
+        margin-top: 20px;
+    }
+    .mainnine3{
+        margin-top: 20px;
+    }
+    .mainnine4{
+        margin-top: 20px;
+    }
+
+
+
+    .shape-5{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .icon i{
+        font-size: 30px;
+        display: block;
+    }
+    nav{
+        text-align: end;
+        padding-right: 20px;
+    }
+    nav a{
+        display: none;
+    }
+
+
+
+
+    .main-one1 {
+        width: 100%;
+        position: relative;
+        height: 400px;
+        padding: 20px 70px;
+    }
+    .shape-1 {
+        position: absolute;
+        height: 350px;
+    }
+    
+    
+    .main1-one {
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .photo1 {
+        border-radius: 50%;
+        position: absolute;
+        height: 200px;
+        top: 70px;
+        left: 70px;
+    }
+    .main-one2 {
+        width: 100%;
+        height: 660px;
+        /* padding: 20px 0px; */
+    }
+
+    .txt-12 {
+        font-size: 35px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+    .text-1{
+        font-size: 35px;
+        color:  #6c9894;
+        font-family: "Baloo Bhai";
+        font-weight: bold;
+    }
+
+
+
+    .mainfour2 img{
+        height: 600px;
+    }
+
+
+    
+
+    .mainfive1 {
+        width: 100%;
+        height: 600px;
+        padding: 50px 80px;
+    }
+    .mainfive1 img {
+        height: 450px;
+    }
+
+
+
+
+    .main-seven {
+        height: 800px;
+        width: 100%;
+        background-image: url(image/photo8.png);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .shape-4 {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    
+    }
+    
+    .photo9 {
+        position: absolute;
+        left: 80px;
+        top: 130px;
+        border-radius: 50%;
+    }
+    
+    .txt-17 {
+        font-size: 25px;
+        color: #6c9894;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 10px;
+    }
+    
+    .txt-18 {
+        font-size: 30px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        top: 650px;
+        left: 100px;
+    }
+
+
+
+
+
+    .maineight {
+        background-color: #6c9894;
+        padding: 80px 0px;
+    }
+    
+    .txt-19 {
+        font-size: 35px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .txt-20 {
+        font-size: 20px;
+        color: #f4f9f4;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .txt-21 {
+        /* text-align: center; */
+        padding-left: 70px;
+    
+    }
+    
+    .txt-21 input {
+        width: 300px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 33px;
+        z-index: 1;
+    }
+    
+    .txt-21 button {
+        width: 120px;
+        height: 50px;
+        border-radius: 33px;
+        background-color: #f4f9f4;
+        font-size: 20px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        position: absolute;
+        margin-left: -80px;
+        z-index: 2;
+    }
+
+
+
+
+    .shape-5{
+        display: none;
+    }
+    
+}
+
+@media (max-width:400px){
+    .main-one1 {
+        width: 100%;
+        position: relative;
+        height: 300px;
+        padding: 20px 70px;
+    }
+    .shape-1 {
+        position: absolute;
+        height: 250px;
+    }
+    
+    
+    .main1-one {
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .photo1 {
+        border-radius: 50%;
+        position: absolute;
+        height: 150px;
+        top: 50px;
+        left: 50px;
+    }
+    .main-one2 {
+        width: 100%;
+        height: 660px;
+        /* padding: 250px 0px; */
+    }
+
+
+    .mainfour2 img{
+        height: 400px;
+    }
+
+
+
+    .mainfive1 {
+        width: 100%;
+        height: 500px;
+        padding: 50px 40px;
+    }
+    .mainfive1 img {
+        height: 350px;
+    }
+    .mainfive2 {
+        width: 100%;
+        height: 600px;
+        padding: 80px 10px;
+    }
+
+
+
+
+    .main-seven {
+        height: 700px;
+        width: 100%;
+        background-image: url(image/photo8.png);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .shape-4 {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        height: 300px;
+    
+    }
+    
+    .photo9 {
+        position: absolute;
+        left: 40px;
+        top: 130px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    
+    .txt-17 {
+        font-size: 25px;
+        color: #6c9894;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        position: absolute;
+        top: 440px;
+        left: 0px;
+    }
+    
+    .txt-18 {
+        font-size: 25px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        top: 650px;
+        left: 40px;
+    }
+
+
+
+
+    
+    .maineight {
+        background-color: #6c9894;
+        padding: 80px 0px;
+    }
+    
+    .txt-19 {
+        font-size: 35px;
+        color: #f4f9f4;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .txt-20 {
+        font-size: 20px;
+        color: #f4f9f4;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .txt-21 {
+        /* text-align: center; */
+        padding-left: 90px;
+    
+    }
+    
+    .txt-21 input {
+        width: 180px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 33px;
+        z-index: 1;
+    }
+    
+    .txt-21 button {
+        width: 80px;
+        height: 30px;
+        border-radius: 33px;
+        background-color: #f4f9f4;
+        font-size: 15px;
+        color: #6c9894;
+        font-family: "Baloo Bhai";
+        text-align: center;
+        position: absolute;
+        margin-left: -80px;
+        z-index: 2;
+    }
+
+
+
+    .shape-5{
+        display: none;
+    }
+}
