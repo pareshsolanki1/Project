@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.one{
+    position: relative;
+    height: 600px;
+}
+
+.photo1{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+}
+
+.sub-one{
+    position: absolute;
+    width: 100%;
+}
+
+.header{
+    opacity: .800;
+}
+
+
+.txt1{
+    font-size: 4rem;
+}
+
+
+/* =====================  MAIN  TWO  ====================  */
+
+.color{
+    background-color: rgb(240, 237, 237);
+}
+
+/* =====================  MAIN  THREE  ====================  */
+
+.txt3{
+    font-size: 4rem;
+}
+
+.three2{
+    padding-top: 150px;
+}
+
+/* =====================  MAIN  SEVEN ==================== */
+
+.seven{
+    position: relative;
+    height: 600px;
+}
+
+.photo7{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.sub-seven{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    opacity: .600;
+    padding: 200px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .one{
+        position: relative;
+        height: 500px;
+    }
+    
+    .photo1{
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        background-color: blue;
+    }
+
+    .txt1{
+        font-size: 3rem;
+    }
+
+    .three2{
+        padding-top: 20px;
+    }
+
+
+    .seven{
+        position: relative;
+        height: 500px;
+    }
+    
+    .photo7{
+        height: 500px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .sub-seven{
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        opacity: .600;
+        padding: 150px 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .one{
+        position: relative;
+        height: 400px;
+    }
+    
+    .photo1{
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        background-color: blue;
+    }
+
+    .txt1{
+        font-size: 2rem;
+    }
+
+
+    .seven{
+        position: relative;
+        height: 400px;
+    }
+    
+    .photo7{
+        height: 400px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .sub-seven{
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        opacity: .600;
+        padding: 100px 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .one{
+        position: relative;
+        height: 350px;
+    }
+    
+    .photo1{
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        background-color: blue;
+    }
+
+    .txt1{
+        font-size: 1.5rem;
+    }
+
+    .txt2{
+        font-size: .9rem;
+    }
+
+
+
+    .seven{
+        position: relative;
+        height: 300px;
+    }
+    
+    .photo7{
+        height: 300px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .sub-seven{
+        position: absolute;
+        height: 300px;
+        width: 100%;
+        opacity: .600;
+        padding: 50px 0px;
+    }
+}
